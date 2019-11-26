@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>판금도색이 필요한 지금!</title>
+    <script src="./java/jquery.js"></script>
+	<script src="./java/jquery.infield.label.js"></script>
+    <link rel="stylesheet" href="./Style/mainmenustyle.css" media="screen">
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/line.css">
+    <link rel="stylesheet" href="./Style/search.css">
+    <style type="text/css">
+    ul.main_menu { margin: 50px auto 0 auto; }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="logo">
+      <h3>나의 애마를 꾸며보자</h3>
+      <h1><a href="index.html">판금도색마스터</a></h1></div>
+    
+    <div id="nav_menu">
+      <ul>
+          <li><a href="http://www.facebook.com">Facebook</a></li>
+          <li><a href="www.blog.naver.com">NaverBlog</a></li>
+          <li><a href="#">Instargram</a></li>
+      </ul>
+          </div>
+
+        <form id="search" method="get">
+          <div class="search_bar">
+            <div>
+            <label for="frm-search" style="position: absolute;" class="infield">Search...</label>
+            <input type="text" value="" id="frm-search" name="s">
+      </div>
+    </div>
+        <div>
+          <button type="submit">Search</button>
+          </div>
+         </form>
+    <div class="spinner"></div>
+<input type="checkbox" id="menuicon">
+<label for="menuicon">
+	<span></span>
+	<span></span>
+	<span></span>
+</label>
+<div class="sidebar">
+
+  <ul class="sidenav">
+  	<li>
+  		<a href="index.html">Home
+  		<span style="color:#f0ffff">어서오세요. 판금도색마스터에 방문하신 여러분을 환영합니다. </span>
+  		</a>
+  	</li>
+  	<li>
+  		<a href="#">국내자동차
+  		<span style="color:#f0ffff">이 곳을 클릭하시면 국내자동차의 판금도색견적을 알아보실 수 있습니다.</span>
+  		</a>
+  	</li>
+  	<li>
+  		<a href="#">수입자동차
+  		<span style="color:#f0ffff">이 곳은 수입자동차 커뮤니티입니다.</span>
+  		</a>
+  	</li>
+  	<li>
+  		<a href="#">게시판
+  		<span style="color:#f0ffff">이 곳은 다양한 정보를 제공받을 수 있는 공간입니다.</span>
+  		</a>
+  	</li>
+  	<li>
+  		<a href="#">갤러리
+  		<span style="color:#f0ffff">이 곳은 다양하게 튜닝된 자동차를 감상할 수 있는 공간입니다.</span>
+  		</a>
+  	</li>
+  	<li>
+  		<a href="#">대화공간
+  		<span style="color:#f0ffff">이 곳은 동시 접속하신 유저들과 자유롭게 이야기를 나눌 수 있는 공간입니다. </span>
+  		</a>
+  	</li>
+  	<li>
+  		<a href="#">Contact
+  		<span style="color:#f0ffff">기타 문의 사항은 이곳을 이용하여 주세요!</span>
+  		</a>
+  	</li>
+  </ul>
+</div>
+<div class="main_menu-div">
+  <ul class="main_menu">
+  	<li><a href="#">My dashboard</a></li>
+  	<li><a href="#">Likes</a>
+  		<ul>
+  			<li><a href="#" class="documents">Documents</a></li>
+  			<li><a href="#" class="messages">Messages</a></li>
+  			<li><a href="#" class="signout">Sign Out</a></li>
+  		</ul>
+  	</li>
+  	<li><a href="#">Views</a>
+  		<ul>
+  			<li><a href="#" class="documents">Documents</a></li>
+  			<li><a href="#" class="messages">Messages</a></li>
+  			<li><a href="#" class="signout">Sign Out</a></li>
+  		</ul>
+  	</li>
+  	<li><a href="#">Uploads</a>
+      <ul>
+  			<li><a href="#" class="documents">Documents</a></li>
+  			<li><a href="#" class="messages">Messages</a></li>
+  			<li><a href="#" class="signout">Sign Out</a></li>
+  		</ul>
+    </li>
+  	<li><a href="#">Videos</a>
+      <ul>
+  			<li><a href="#" class="documents">Documents</a></li>
+  			<li><a href="#" class="messages">Messages</a></li>
+  			<li><a href="#" class="signout">Sign Out</a></li>
+  		</ul>
+    </li>
+  	<li><a href="#">Documents</a>
+      <ul>
+  			<li><a href="#" class="documents">Documents</a></li>
+  			<li><a href="#" class="messages">Messages</a></li>
+  			<li><a href="#" class="signout">Sign Out</a></li>
+  		</ul>
+    </li>
+  </ul>
+</div>
+
+<div class="border"></div>
+<script>
+(function($){
+$(document).ready(function(){
+$("#search label").inFieldLabels({fadeOpacity:0.35});
+$("label.inline").inFieldLabels();
+});
+})(jQuery);
+</script>
+</body>
+</html>

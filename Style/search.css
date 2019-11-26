@@ -1,0 +1,53 @@
+#search {
+    position: relative;
+    width: 200px;
+    margin-left: 1350px;
+    margin-top: 110px;
+}
+#search label {
+	font-family:arial;
+    color: #FFFEFF;
+    cursor: text;
+    font-size: 12px;
+    font-weight: bold;
+    left: 12px !important;
+    position: absolute;
+    text-shadow: 0 1px 1px #66AACD;
+    top: 12px !important;
+}
+#search input {
+    background: url("./img/search.png") repeat scroll 0 0 transparent;
+    border-style: none;
+    border-width: 0;
+    color: #FFFEFF;
+    font: bold 12px/20px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+    height: 38px;
+    margin: 0;
+    padding: 0 38px 0 12px;
+    text-shadow: 0 1px 1px #66AACD;
+    width: 154px;
+}
+#search:active input {
+    background-position: 0 -38px;
+}
+#search input:focus {
+    background-position: 0 -38px;
+}
+#search button {
+    background-color: transparent;
+    background-image: url("./img/search_button.png");
+    border-style: none;
+    cursor: pointer;
+    height: 26px;
+    position: absolute;
+    right: 3px;
+    text-indent: -9999px;
+    top: 6px;
+    width: 26px;
+}
+#search button:hover {
+    background-position: 0 -26px;
+}
+#search button:active {
+    top: 7px;
+}

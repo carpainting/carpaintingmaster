@@ -1,0 +1,212 @@
+
+
+}
+a:focus {
+	outline: none;
+}
+ul.sidenav {
+	font-size: 1.2em;
+	float: left;
+  margin-top: 50px;
+	width: 270px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #003867;
+	background: -webkit-linear-gradient(top,#003867 0%,#2c2d33 100%);
+	background: -moz-linear-gradient(top, #003867 0%,#2c2d33 100%);
+	background: -o-linear-gradient(top, #003867 0%,#2c2d33 100%);
+	background: -ms-linear-gradient(top, #003867 0%,#2c2d33 100%);
+	background: linear-gradient(top, #003867 0%,#2c2d33 100%);
+	border-bottom: 1px solid #3373a9;
+	border-top: 1px solid #003867;
+}
+ul.sidenav li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	width: 155px;
+	padding: 10px 10px 10px 75px;
+	background: url(./img/sidenav_a.gif) no-repeat 40px 8px;
+	border-top: 1px solid #3373a9;
+	border-bottom: 1px solid #003867;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+ul.sidenav li a:hover {
+	background: #003867 url(./img/sidenav_a.gif) no-repeat 40px 8px;
+	border-top: 1px solid #1a4c76;
+	color: #8fde62;
+}
+ul.sidenav li span{	display: none; }
+ul.sidenav li a:hover span {
+	display: block;
+	font-size: 0.8em;
+	padding: 10px 0;
+}
+.spinner {
+  width:75px;
+  height: 65px;
+  background:#005094;
+	background: -webkit-linear-gradient(top,skyblue 0%,#003867 100%);
+	background: -moz-linear-gradient(top, skyblue 0%,#003867 100%);
+	background: -o-linear-gradient(top, skyblue 0%,#003867 100%);
+	background: -ms-linear-gradient(top, skyblue 0%,#003867 100%);
+	background: linear-gradient(top, skyblue 0%,#003867 100%);
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+  position:fixed;
+  top:160px;
+  left: 150px;
+  z-index: auto;
+  transition:all .35s;
+}
+input[id="menuicon"] {
+  display:none;
+}
+input[id="menuicon"] + label {
+  display:block;
+  margin-top: 27px;
+	margin-left: 160px;
+  width:40px;
+  height:35px;
+  position:relative;
+  cursor:pointer;
+}
+input[id="menuicon"] + label span {
+  display:block;
+  position:absolute;
+  width:100%;
+  height:5px;
+  border-radius:30px;
+  background:#fff;
+  transition:all .35s;
+}
+input[id="menuicon"] + label span:nth-child(1) {
+  top:0;
+}
+input[id="menuicon"] + label span:nth-child(2) {
+  top:50%;
+  transform:translateY(-50%);
+  } /* �����ϰ� ������ �� �ִ� style top:calc(50% - 2.5px); margin-top:-2.5px;*/
+input[id="menuicon"] + label span:nth-child(3) {
+  bottom:0;
+}
+input[id="menuicon"]:checked + label {
+  z-index:2;
+}
+input[id="menuicon"]:checked + label span {
+  background:white;
+}
+input[id="menuicon"]:checked + label span:nth-child(1) {
+  top:50%;
+  transform:translateY(-50%) rotate(45deg);
+}
+input[id="menuicon"]:checked + label span:nth-child(2) {
+  opacity:0;
+}
+input[id="menuicon"]:checked + label span:nth-child(3) {
+  bottom:50%;
+  transform:translateY(50%) rotate(-45deg);
+}
+label {
+  display: block;
+  width: 90px;
+  height: 85px;
+}
+input:checked ~ label {
+  background-position: : -50px 0;
+}
+.logo {
+  text-align: left;
+	text-decoration: none;
+  width:1000px;
+  height:130px;
+  position:fixed;
+  top: 10px;
+  left: 270px;
+  z-index: auto;
+  transition: .35s;
+}
+
+#nav_menu {
+  width:400px;
+  background:none;
+  height: 32px;
+  position:fixed;
+  top:10px;
+  right: 470px;
+  z-index: auto;
+  transition: .35s;
+}
+
+#nav_menu ul{
+  list-style-type: none;
+  width: 300px;
+  height: 50px;
+  background:none;
+  list-style: none;
+  margin: 5px;
+  padding: 1px;
+}
+#nav_menu ul > li{
+  display: inline;
+  float: left;
+  margin-right: 1px;
+  background: #000;
+	border-right: 2px solid;
+	border-left: 2px solid;
+	border-color: #5f9ea0;
+  font-weight: bold;
+}
+#nav_menu ul li:first-child {
+  border-right: none;
+  }
+
+#nav_menu ul li:last-child {
+	border-left: none;
+}
+#nav_menu ul li a{
+  display: block;
+  font-size: 15px;
+  radius: 10px;
+  background: #ffffff;
+  color: #003867;
+  padding: 2px 10px;
+  text-decoration: none;
+}
+#nav_menu ul li a:hover{
+  background:#8fde62;
+  color:#fff;
+}
+
+.content {
+  width:60%;
+  height: 100%;
+  background:red;
+  position:fixed;
+  top:225px;
+  right:0;
+  left: 20%;
+  z-index: auto;
+  transition: .35s;
+}
+
+
+div[class="sidebar"] {
+  width:270px;
+  height:100%;
+  background:#fff;
+  position:fixed;
+  top:235px;
+  left:-300px;
+  z-index:1;
+  transition:all .35s;
+}
+
+input[id="menuicon"]:checked + label + div {
+  left:0;
+}
