@@ -138,7 +138,7 @@ input:checked ~ label {
   height: 32px;
   position:fixed;
   top:10px;
-  right: 200px;
+  right: 100px;
   z-index: auto;
   transition: .35s;
 }
