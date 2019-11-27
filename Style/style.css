@@ -121,16 +121,27 @@ input:checked ~ label {
   background-position: : -50px 0;
 }
 .logo {
-  text-align: left;
-	text-decoration: none;
-  width:1000px;
-  height:130px;
-  position:fixed;
+	display: inline-block;
+  width:500px;
+  height:200px;
+  position:absolute;
   top: 10px;
   left: 270px;
   z-index: auto;
   transition: .35s;
 }
+
+.logo2 {
+	display: inline-block;
+  width:400px;
+  height:200px;
+  position:absolute;
+  top: 10px;
+  left: 850px;
+  z-index: auto;
+  transition: .35s;
+}
+
 
 #nav_menu {
   width:400px;
