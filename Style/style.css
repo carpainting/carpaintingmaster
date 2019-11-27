@@ -150,7 +150,7 @@ div[class="sidebar"] {
   height:100%;
   background:#fff;
   position:fixed;
-  top:235px;
+  top:245px;
   left:-300px;
   z-index:1;
   transition:all .35s;
