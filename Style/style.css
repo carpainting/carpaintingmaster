@@ -46,8 +46,8 @@ ul.sidenav li a:hover span {
 	padding: 10px 0;
 }
 .spinner {
-  width:75px;
-  height: 65px;
+  width:65px;
+  height: 55px;
   background:#005094;
 	background: -webkit-linear-gradient(top,skyblue 0%,#003867 100%);
 	background: -moz-linear-gradient(top, skyblue 0%,#003867 100%);
@@ -59,8 +59,8 @@ ul.sidenav li a:hover span {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
   position:fixed;
-  top:160px;
-  left: 150px;
+  top:180px;
+  left: 200px;
   z-index: auto;
   transition:all .35s;
 }
@@ -69,11 +69,11 @@ input[id="menuicon"] {
 }
 input[id="menuicon"] + label {
   display:block;
-  margin-top: 27px;
-	margin-left: 160px;
-  width:40px;
-  height:35px;
-  position:relative;
+  margin-top: -50px;
+	margin-left: 210px;
+  width:30px;
+  height:25px;
+  position:fixed;
   cursor:pointer;
 }
 input[id="menuicon"] + label span {
@@ -138,7 +138,7 @@ input:checked ~ label {
   height: 32px;
   position:fixed;
   top:10px;
-  right: 50px;
+  right: 250px;
   z-index: auto;
   transition: .35s;
 }
@@ -183,17 +183,6 @@ input:checked ~ label {
   color:#fff;
 }
 
-.content {
-  width:60%;
-  height: 100%;
-  background:red;
-  position:fixed;
-  top:225px;
-  right:0;
-  left: 20%;
-  z-index: auto;
-  transition: .35s;
-}
 
 
 div[class="sidebar"] {

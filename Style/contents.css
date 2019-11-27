@@ -1,0 +1,46 @@
+#contents {
+  margin-top: 245px;
+  width: 100%;
+  overflow: auto;
+}
+
+#contents_top {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.slideimg {
+  width:100%;
+  height: 400px;
+  background: skyblue;
+}
+
+.slide_img {
+  display: inline-block;
+  position: relative;
+  left: 390px;
+  margin: 40px 40px 40px 40px;
+  width: 980px;
+  height: 300px;
+  background: blue;
+  border: 1px solid;
+}
+
+.bottomline {
+  width:100%;
+  height: 400px;
+  background: skyblue;
+
+}
+
+.bottom {
+  display: inline-block;
+  position: relative;
+  left: 390px;
+  margin: 40px 40px 40px 40px;
+  width: 450px;
+  height: 300px;
+  background: blue;
+
+}

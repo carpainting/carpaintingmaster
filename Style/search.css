@@ -1,8 +1,8 @@
 #search {
-    position: relative;
-    width: 200px;
-    margin-left: 1350px;
-    margin-top: 110px;
+    position: fixed;
+    width: 350px;
+    margin-left: 1250px;
+    margin-top: -50px;
 }
 #search label {
 	font-family:arial;
@@ -16,22 +16,22 @@
     top: 12px !important;
 }
 #search input {
-    background: url("./img/search.png") repeat scroll 0 0 transparent;
+    background: url("img/search.png") repeat scroll 0 0 transparent;
     border-style: none;
-    border-width: 0;
+    border-width: 100px;
     color: #FFFEFF;
     font: bold 12px/20px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
     height: 38px;
     margin: 0;
     padding: 0 38px 0 12px;
     text-shadow: 0 1px 1px #66AACD;
-    width: 154px;
+    width: 300px;
 }
 #search:active input {
     background-position: 0 -38px;
 }
 #search input:focus {
-    background-position: 0 -38px;
+    background-position: 0 -40px;
 }
 #search button {
     background-color: transparent;
@@ -40,13 +40,13 @@
     cursor: pointer;
     height: 26px;
     position: absolute;
-    right: 3px;
+    right: 5px;
     text-indent: -9999px;
     top: 6px;
-    width: 26px;
+    width: 28px;
 }
 #search button:hover {
-    background-position: 0 -26px;
+    background-position: 0 -28px;
 }
 #search button:active {
     top: 7px;
