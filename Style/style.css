@@ -26,7 +26,7 @@ ul.sidenav li a{
 	color: #fff;
 	text-decoration: none;
 	width: 155px;
-	padding: 10px 10px 10px 75px;
+	padding: 10px 10px 10px 105px;
 	background: url(./img/sidenav_a.gif) no-repeat 40px 8px;
 	border-top: 1px solid #3373a9;
 	border-bottom: 1px solid #003867;
@@ -124,9 +124,9 @@ input:checked ~ label {
 	display: inline-block;
   width:500px;
   height:200px;
-  position:absolute;
+  position:fixed;
   top: 10px;
-  left: 270px;
+  left: 280px;
   z-index: auto;
   transition: .35s;
 }
@@ -135,9 +135,9 @@ input:checked ~ label {
 	display: inline-block;
   width:400px;
   height:200px;
-  position:absolute;
+  position:fixed;
   top: 10px;
-  left: 800px;
+	left: 780px;
   z-index: auto;
   transition: .35s;
 }
@@ -147,10 +147,11 @@ input:checked ~ label {
 
 div[class="sidebar"] {
   width:270px;
-  height:100%;
+  height:auto;
   background:#fff;
+	opacity: 100%;
   position:fixed;
-  top:255px;
+  top:245px;
   left:-300px;
   z-index:1;
   transition:all .35s;
