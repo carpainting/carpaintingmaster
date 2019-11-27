@@ -1,6 +1,7 @@
 #contents {
   width: 100%;
   margin-top: 245px;
+  margin-left: 263px;
   overflow: auto;
 }
 
@@ -19,7 +20,7 @@
 .k_contents_top {
   display: inline-block;
   position: relative;
-  left: 390px;
+  left: 90px;
   margin: 40px 40px 40px 40px;
   width: 450px;
   height: 300px;

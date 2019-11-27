@@ -28,6 +28,7 @@ ul.main_menu {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	z-index: 999;
 }
 
 .main_menu li {
@@ -36,6 +37,7 @@ ul.main_menu {
 	list-style: none;
 	float: left;
 	display: inline-block;
+	z-index: 999;
 	height: 40px;
 }
 
@@ -50,6 +52,7 @@ ul.main_menu {
 	text-decoration: none;
 	border-left: 1px solid gray;
 	border-right: 1px solid white;
+	z-index: 999;
 
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -75,7 +78,7 @@ ul.main_menu {
 	position: absolute;
 	top: 40px;
 	left: 20px;
-
+	z-index: 999;
 	opacity: 0;
 
 	background: #1f2024;
@@ -97,6 +100,7 @@ ul.main_menu {
 	height: 0;
 	overflow: hidden;
 	padding: 0;
+	z-index: 999;
 
 	-webkit-transition: height .25s ease .1s;
 	-moz-transition: height .25s ease .1s;
@@ -107,6 +111,7 @@ ul.main_menu {
 
 .main_menu li:hover > ul li {
 	height: 50px;
+	z-index: 999;
 	overflow: visible;
 	padding: 0;
 }
@@ -115,7 +120,7 @@ ul.main_menu {
 	width: 140px;
 	padding: 4px 0 4px 40px;
 	margin: 0;
-
+	z-index: 999;
 	border: none;
 	border-bottom: 1px solid #353539;
 }
